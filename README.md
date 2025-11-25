@@ -52,3 +52,9 @@ There are a few limitations in this version of the app due to the scope of the a
 
 
 <img width="2994" height="1692" alt="image" src="https://github.com/user-attachments/assets/023c3987-6e22-403a-be1a-0395cb463447" />
+<img width="2690" height="1432" alt="image" src="https://github.com/user-attachments/assets/5a1a25c7-9eb5-418f-aa43-6769288bfc66" />
+<img width="1572" height="1610" alt="image" src="https://github.com/user-attachments/assets/d6a23c3e-59f4-4776-b58e-5e6fe1f1831e" />
+<img width="2180" height="730" alt="image" src="https://github.com/user-attachments/assets/92dcd7d2-c7f8-4a22-8a58-acd66b216254" />
+<img width="2282" height="700" alt="image" src="https://github.com/user-attachments/assets/f7db37b6-623e-43f5-8ff9-0af2c93d467e" />
+
+

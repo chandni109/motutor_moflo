@@ -32,9 +32,20 @@ Instead of tutors rewriting the same content over and over, MoTutor helps standa
 # How to Run the Project
 If you want to run MoTutor locally, here’s the exact process:
 # Install dependencies and run
-Make sure you are in the project folder, then install everything: npm install
+# 1. Clone the repository
+git clone https://github.com/chandni109/motutor_moflo.git
+# 2. Move into the project folder
+cd motutor_mofl
+# 3. Make sure you are in the project folder, then install everything
+npm install
 Then run 'npm run dev' to start the server
 After that is running, visit the website: http://localhost:3000/motutor
-# Stop the server
+# 4. Stop the server
 Just press the two keys: Ctrl + C
 
+
+# Assumptions
+For this project, I assumed that only one tutor or user would be creating lesson plans at a time, which made storing everything in React Context a reasonable choice. I also treated the JSON output as the structured data that an AI tool would eventually use in a real MoFlo workflow. In other words, the lesson plan fields I included represent the essential information an AI model would need to build out full lesson materials. I kept the inputs simple and consistent so the data would be easy to work with.
+
+# Limitations
+There are a few limitations in this version of the app due to the scope of the assignment. Lesson plans don’t persist after a refresh because there is no database or long-term storage. The app doesn’t include authentication, multi-user support, or real AI generation—the JSON output only simulates the information an AI would work from. The lesson structure is also simplified compared to what a full tutoring platform would require.

@@ -15,8 +15,8 @@ export default function MoTutorLandingPage() {
       
       {/* Header */}
       <section className="rounded-2xl border bg-white/80 p-6 shadow-sm">
-        <h1 className="text-3xl font-semibold tracking-tight">MoTutor</h1>
-        <p className="mt-2 text-sm text-gray-600">
+      <h1 className="text-3xl font-semibold tracking-tight text-gray-900">MoTutor</h1>
+        <p className="mt-2 text-sm text-gray-800">
           AI-assisted lesson planning for tutors and education businesses. Create structured lesson 
           plans in minutes and reuse them across students.
         </p>
@@ -30,7 +30,7 @@ export default function MoTutorLandingPage() {
           </Link>
           <Link
             href="/motutor/view"
-            className="rounded-xl border border-gray-300 px-4 py-2 text-sm font-medium hover:bg-gray-50"
+            className="rounded-xl border border-gray-300 px-4 py-2 text-sm font-medium text-black hover:bg-gray-50"
           >
             View lesson library
           </Link>
@@ -39,7 +39,7 @@ export default function MoTutorLandingPage() {
 
       {/* Activity Feed */}
       <section className="rounded-2xl border bg-white/80 p-6 shadow-sm">
-        <h2 className="text-lg font-semibold">Activity feed</h2>
+      <h2 className="text-lg font-semibold text-gray-900">Activity feed</h2>
 
         {recent.length === 0 ? (
           <p className="mt-2 text-sm text-gray-500">
@@ -63,7 +63,7 @@ export default function MoTutorLandingPage() {
 
       {/* Key Insights */}
       <section className="rounded-2xl border bg-white/80 p-6 shadow-sm">
-        <h2 className="text-lg font-semibold">Key insights</h2>
+        <h2 className="text-lg font-semibold text-gray-900">Key insights</h2>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-gray-700">
           <li>Standardize your lesson structure across tutors.</li>
           <li>Reuse lesson plans for students at the same level.</li>

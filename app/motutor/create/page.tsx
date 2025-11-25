@@ -132,23 +132,23 @@ export default function MoTutorCreatePage() {
 
           <div>
             <label className="block text-sm font-medium">
-              Level <span className="text-red-500">*</span>
+                Level <span className="text-red-500">*</span>
             </label>
             <select
-              name="level"
-              value={form.level}
-              onChange={handleChange}
-              className="mt-1 w-full rounded-xl border bg-white px-3 py-2 text-sm"
+                name="level"
+                value={form.level}
+                onChange={handleChange}
+                className="mt-1 w-full rounded-xl border bg-white px-3 py-2 text-sm text-gray-900"
             >
-              <option value="">Select level</option>
-              <option value="elementary">Elementary</option>
-              <option value="middle">Middle school</option>
-              <option value="high">High school</option>
-              <option value="undergrad">Undergrad</option>
-              <option value="graduate">Graduate</option>
+                <option value="">Select level</option>
+                <option value="elementary">Elementary</option>
+                <option value="middle">Middle school</option>
+                <option value="high">High school</option>
+                <option value="undergrad">Undergrad</option>
+                <option value="graduate">Graduate</option>
             </select>
             {errors.level && <p className="mt-1 text-xs text-red-600">{errors.level}</p>}
-          </div>
+            </div>
         </div>
 
         {/* Duration */}
@@ -196,18 +196,15 @@ export default function MoTutorCreatePage() {
         </button>
       </form>
 
-      {/* JSON Preview */}
-      {jsonPreview && (
-        <section className="mt-8 rounded-2xl border bg-gray-50 p-4">
-          <h2 className="text-sm font-semibold text-gray-800">JSON output</h2>
-          <p className="mt-1 text-xs text-gray-600">
-            Copy this into <code>motutor-sample-output.txt</code> for your submission.
-          </p>
-          <pre className="mt-3 max-h-80 overflow-auto rounded-2xl bg-black p-4 text-xs text-green-100">
-{jsonPreview}
-          </pre>
+        {/* JSON Preview */}
+        {jsonPreview && (
+          <section className="mt-8 rounded-2xl border bg-gray-50 p-4">
+            <h2 className="text-sm font-semibold text-gray-800">JSON Output</h2>
+            <pre className="mt-3 max-h-80 overflow-auto rounded-2xl bg-black p-4 text-xs text-green-100">
+        {jsonPreview}
+            </pre>
         </section>
-      )}
+        )}
     </main>
   );
 }

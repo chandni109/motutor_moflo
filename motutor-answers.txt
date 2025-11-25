@@ -1,0 +1,30 @@
+1. What is the product’s name (your Mo-Something app)?
+MoTutor
+
+2. What is the function + connection?
+MoTutor is an AI-assisted lesson planning tool for tutors, teachers, and small education businesses. 
+Its main function is to turn simple inputs (subject, topic, level, duration, and objectives) into a 
+structured JSON lesson object that can be reused and shared. In a real MoFlo environment, this JSON 
+could be connected to downstream tools like Google Docs, PDFs, or learning platforms so that lesson 
+plans can be quickly turned into student-facing materials.
+
+3. Why did you choose to make the product?
+I chose MoTutor because I’ve seen how much time tutors and small learning centers spend repeatedly
+planning similar lessons for different students. Lesson planning is important but also very repetitive,
+so it’s a great fit for a semi-automated, AI-assisted workflow. Building MoTutor also let me combine my
+interests in education and software development in a way that feels realistic for how MoFlo’s platform
+could be used.
+
+4. Why would MoFlo clients (small and medium sized businesses) be interested in and/or use this product?
+Small and medium tutoring centers, test-prep companies, and after-school programs need consistent, 
+high-quality lessons that different instructors can follow. MoTutor helps them standardize lesson structure,
+save prep time, and onboard new tutors more easily. It also creates a simple record of what has been taught,
+which can be reused across students and courses. This makes their operations more efficient and scalable,
+which is valuable for growing education businesses.
+
+5. What would you improve or change about your new product if you had more time or could work on it in the future?
+With more time, I would add full AI-powered generation of objectives, example activities, and quick assessments 
+based only on a topic and level. I would also support multi-lesson units so tutors can plan a whole sequence of
+classes, add integrations to Google Classroom, and include simple analytics to show which lessons
+are used most often and where students may struggle. Finally, I’d add user accounts and persistence so different 
+tutors in the same organization can share and collaborate on lesson plans.

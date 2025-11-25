@@ -1,0 +1,14 @@
+{
+  "id": "lesson_1763950684164",
+  "title": "Introduction to Photosynthesis",
+  "subject": "Science",
+  "topic": "Photosynthesis",
+  "level": "middle",
+  "durationMinutes": 60,
+  "objectives": [
+    "Students will be able to describe the overall process of photosynthesis.",
+    "Students will identify the roles of sunlight, water, and carbon dioxide.",
+    "Students will explain why photosynthesis is important for life on Earth."
+  ],
+  "createdAt": "2025-11-24T02:18:04.163Z"
+}

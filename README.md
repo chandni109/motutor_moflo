@@ -49,3 +49,6 @@ For this project, I assumed that only one tutor or user would be creating lesson
 
 # Limitations
 There are a few limitations in this version of the app due to the scope of the assignment. Lesson plans don’t persist after a refresh because there is no database or long-term storage. The app doesn’t include authentication, multi-user support, or real AI generation—the JSON output only simulates the information an AI would work from. The lesson structure is also simplified compared to what a full tutoring platform would require.
+
+
+<img width="2994" height="1692" alt="image" src="https://github.com/user-attachments/assets/023c3987-6e22-403a-be1a-0395cb463447" />
